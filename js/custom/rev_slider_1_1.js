@@ -28,7 +28,7 @@
 				}else{
 					revapi1 = tpj("#rev_slider_1_1").show().revolution({
 						sliderType:"standard",
-jsFileLocation:"//melody.ancorathemes.com/wp-content/plugins/revslider/public/assets/js/",
+jsFileLocation:"js/custom/rev_slider_1_1.js",
 						sliderLayout:"auto",
 						dottedOverlay:"none",
 						delay:9000,
