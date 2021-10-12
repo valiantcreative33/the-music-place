@@ -455,7 +455,7 @@ label.required:after {
     padding: 1em 1.5em;
     font-size: 0.85em;
     line-height: normal;
-    color: #21759b;
+    color: #3399ca;
     background-color: #f1f1f1;
     border-radius: 3px;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
@@ -2228,7 +2228,9 @@ body:not(.top_panel_fixed) .top_panel_inner_style_5 .menu_main_nav>li.bordered {
 
 .top_panel_wrap .logo_fixed {
     display: none;
+    max-width: 30%;
     width: auto;
+    padding-top: 10px;
 }
 
 .top_panel_fixed .top_panel_wrap .logo_fixed {

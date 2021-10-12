@@ -29,7 +29,7 @@ This application is under the [MIT](https://opensource.org/licenses/MIT) license
 
 ## Live Website + Mockup
 
-Visit the [Live Website Here](https://valiantcreative33.github.io/the-music-place/).
+Visit the [Live Website Here](https://the-music-place.netlify.app/).
 
 ![Screenshot of the The Music Place website](./images/screenshot-desktop.jpg)
 
