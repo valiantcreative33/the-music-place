@@ -2030,12 +2030,9 @@ body:not(.top_panel_fixed) .top_panel_position_over.top_panel_wrap_inner, body:n
 }
 
 .menu_main_nav>li.bordered>a {
-    border: 2px solid;
+    border: 2px solid #FFF568;
     border-radius: 2em;
     margin: -1px 0;
-}
-
-.menu_main_nav>li.bordered>a {
     padding: 0.5em 1.2em 0.6em;
 }
 
@@ -6055,14 +6052,14 @@ blockquote>a, blockquote>p>a, blockquote cite {
     margin-top: 1em;
 }
 
-.widget_area .widget_twitter ul li {
+.widget_area .widget_facebook ul li {
     padding-left: 3.85em;
     line-height: 1.7em;
     padding-top: 0.7em;
 }
 
-.widget_area .widget_twitter ul li:before {
-    content: '\e89a';
+.widget_area .widget_facebook ul li:before {
+    content: '\e873';
     font-size: 29px;
     left: 0;
     top: 0.7em;
