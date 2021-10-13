@@ -28,7 +28,7 @@
 				}else{
 					revapi1 = tpj("#rev_slider_1_1").show().revolution({
 						sliderType:"standard",
-jsFileLocation:"./js/custom/rev_slider_1_1.js",
+jsFileLocation:"/Users/rubenmatamoros/Freelance/The-Music-Place/The-Music-Place-Website/js/vendor/plugins/revslider/public/assets/js",
 						sliderLayout:"auto",
 						dottedOverlay:"none",
 						delay:9000,
