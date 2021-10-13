@@ -47,7 +47,7 @@ tpj(document).ready(function() {
 	} else {
 		revapi2 = tpj("#rev_slider_2_1").show().revolution({
 			sliderType: "standard",
-			jsFileLocation: "./js/custom/rev_slider_2_1.js",
+			jsFileLocation: "//melody.ancorathemes.com/wp-content/plugins/revslider/public/assets/js/",
 			sliderLayout: "auto",
 			dottedOverlay: "none",
 			delay: 9000,
