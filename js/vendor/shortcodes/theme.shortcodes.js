@@ -252,30 +252,30 @@ function melodyschool_sc_init(container) {
 	}
 
 	// Googlemap init
-	if (container.find('.sc_googlemap:not(.inited)').length > 0) {
-		container.find('.sc_googlemap:not(.inited)')
-			.each(function () {
-				"use strict";
-				if (jQuery(this).parents('div:hidden,article:hidden').length > 0) return;
-				var map = jQuery(this).addClass('inited');
-				var map_id		= map.attr('id');
-				var map_zoom	= map.data('zoom');
-				var map_style	= map.data('style');
-				var map_markers = [];
-				map.find('.sc_googlemap_marker').each(function() {
-					"use strict";
-					var marker = jQuery(this);
-					map_markers.push({
-						point:			marker.data('point'),
-						address:		marker.data('address'),
-						latlng:			marker.data('latlng'),
-						description:	marker.data('description'),
-						title:			marker.data('title')
-					});
-				});
-				melodyschool_googlemap_init( jQuery('#'+map_id).get(0), {style: map_style, zoom: map_zoom, markers: map_markers});
-			});
-	}
+	// if (container.find('.sc_googlemap:not(.inited)').length > 0) {
+	// 	container.find('.sc_googlemap:not(.inited)')
+	// 		.each(function () {
+	// 			"use strict";
+	// 			if (jQuery(this).parents('div:hidden,article:hidden').length > 0) return;
+	// 			var map = jQuery(this).addClass('inited');
+	// 			var map_id		= map.attr('id');
+	// 			var map_zoom	= map.data('zoom');
+	// 			var map_style	= map.data('style');
+	// 			var map_markers = [];
+	// 			map.find('.sc_googlemap_marker').each(function() {
+	// 				"use strict";
+	// 				var marker = jQuery(this);
+	// 				map_markers.push({
+	// 					point:			marker.data('point'),
+	// 					address:		marker.data('address'),
+	// 					latlng:			marker.data('latlng'),
+	// 					description:	marker.data('description'),
+	// 					title:			marker.data('title')
+	// 				});
+	// 			});
+	// 			melodyschool_googlemap_init( jQuery('#'+map_id).get(0), {style: map_style, zoom: map_zoom, markers: map_markers});
+	// 		});
+	// }
 
 	// Infoboxes
 	if (container.find('.sc_infobox.sc_infobox_closeable:not(.inited)').length > 0) {
