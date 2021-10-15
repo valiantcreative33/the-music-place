@@ -5557,6 +5557,10 @@ blockquote>a, blockquote>p>a, blockquote cite {
     padding-top: 0.3em;
 }
 
+.cta_text_color {
+    color: #232a34;
+}
+
 .post_item_single_team .post_info_share_horizontal {
     margin: 2em 0;
 }
