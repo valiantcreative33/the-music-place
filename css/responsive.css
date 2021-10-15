@@ -3220,7 +3220,7 @@
 
 @media (max-width: 639px) {
     .header_mobile .logo_main {
-        height: 40px;
+        height: 100px;
     }
     .popup_wrap {
         width: auto;
