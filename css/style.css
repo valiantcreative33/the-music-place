@@ -4043,6 +4043,15 @@ blockquote>a, blockquote>p>a, blockquote cite {
     padding-bottom: 10px;
 }
 
+.bi-instagram {
+    padding-top: 7px;
+}
+
+.bi-instagram-footer {
+    padding-top: 1px;
+    color: white;
+}
+
 .isotope_wrap .isotope_item.isotope_item_show {
     opacity: 1;
     filter: alpha(opacity=100);

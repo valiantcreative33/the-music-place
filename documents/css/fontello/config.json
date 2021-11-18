@@ -21,6 +21,18 @@
       ]
     },
     {
+      "uid": "0d08dbb1dd648a43bdea81b7e6c9e036",
+      "css": "location-1",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 61805,
+      "src": "fontawesome"
+    },
+    {
       "uid": "7ac62f467a853945101a34cb0cba5035",
       "css": "hand27",
       "code": 59400,
