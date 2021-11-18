@@ -3744,7 +3744,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_medium, body.si
 }
 
 .sc_services_style_services-1 .sc_services_item_featured {
-    padding: 0 4em;
+    padding: 0 5em;
     margin-bottom: 1.75em;
 }
 
@@ -5570,6 +5570,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_medium, body.si
 
 .sc_item_button>a {
     overflow: hidden;
+    margin-top: 15px;
 }
 
 .sc_item_button>a:before {
