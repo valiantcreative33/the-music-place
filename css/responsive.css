@@ -2590,6 +2590,29 @@
     .container, .container-fluid {
         padding-left: 5px;
         padding-right: 5px;
+        columns: auto;
+    }
+    .sc_socials.sc_socials_size_tiny a, .sc_socials.sc_socials_size_tiny a .sc_socials_hover {
+        width: 1.2em;
+        font-size: 3em;
+        height: 1.2em;
+        line-height: 1.2em;
+        background-position: 0 -1.2em;
+        -webkit-background-size: 1.2em 2.4em;
+        -moz-background-size: 1.2em 2.4em;
+        -o-background-size: 1.2em 2.4em;
+        background-size: 1.2em 2.4em;
+    }
+    .bi-instagram {
+        padding-top: 15px;
+        width: 35px;
+        height: 35px;
+    }
+    .bi-instagram-footer {
+        padding-top: 2px;
+        color: white;
+        width: 35px;
+        height: 35px;
     }
     .row, .columns_wrap {
         margin-right: -10px;
@@ -3112,6 +3135,7 @@
     .sc_promo_block.sc_align_left *, .sc_promo_block.sc_align_left *:after {
         text-align: center!important;
         margin-left: auto;
+        padding: 12px 23px 12px 23px;
     }
     .sc_promo_block.sc_align_right *, .sc_promo_block.sc_align_right *:after {
         text-align: center!important;
