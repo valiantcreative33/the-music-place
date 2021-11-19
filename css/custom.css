@@ -309,7 +309,7 @@ a.eg-henryharrison-element-2 {
   font-weight: 400!important;
   padding: 17px 17px 17px 17px!important;
   border-radius: 60px 60px 60px 60px!important;
-  background-color: rgba(92, 200, 190, 1.00)!important;
+  background-color: #3499CA!important;
   z-index: 2!important;
   display: block;
   font-family: "Open Sans"!important;
@@ -323,10 +323,10 @@ a.eg-henryharrison-element-2 {
 .eg-melody-element-0:hover {
   font-size: 16px!important;
   line-height: 22px!important;
-  color: #5cc8be!important;
+  color: #3499CA!important;
   font-weight: 400!important;
   border-radius: 60px 60px 60px 60px!important;
-  background-color: rgba(255, 255, 255, 1.00)!important;
+  background-color: #FFF568!important;
   border-top-width: 0px!important;
   border-right-width: 0px!important;
   border-bottom-width: 0px!important;
