@@ -2202,7 +2202,7 @@ body:not(.top_panel_fixed) .top_panel_inner_style_5 .menu_main_nav>li.bordered {
 }
 
 .top_panel_wrap .logo_main {
-    max-height: 100px;
+    max-height: 80px;
     width: auto;
 }
 
