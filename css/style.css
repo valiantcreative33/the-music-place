@@ -6190,6 +6190,7 @@ footer.testimonials_wrap .sc_section_overlay, footer.twitter_wrap .sc_section_ov
 
 .copyright_style_menu .copyright_text, .copyright_style_socials .copyright_text {
     float: left;
+    padding-top: 10px;
 }
 
 .copyright_style_socials .sc_socials, .copyright_style_menu .menu_footer_nav {
@@ -6210,10 +6211,11 @@ footer.testimonials_wrap .sc_section_overlay, footer.twitter_wrap .sc_section_ov
 .menu_mobile .copyright_style_socials .copyright_text, .menu_mobile .copyright_style_menu .copyright_text, .menu_mobile .copyright_wrap .sc_socials, .menu_mobile .menu_footer_nav {
     float: none;
     text-align: center;
+    padding-top: 20px;
 }
 
 .menu_mobile .copyright_style_socials .copyright_text, .menu_mobile .copyright_style_menu .copyright_text {
-    margin-top: 1em;
+    margin-top: 0em;
 }
 
 .menu_mobile .copyright_wrap .sc_socials {
