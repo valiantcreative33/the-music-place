@@ -6208,6 +6208,13 @@ footer.testimonials_wrap .sc_section_overlay, footer.twitter_wrap .sc_section_ov
     text-align: right;
 }
 
+.contact_header_h1 {
+    font-size: 55px;
+    color: white!important;
+    text-align: center;
+    padding-top: 20px;
+}
+
 .menu_mobile .copyright_style_socials .copyright_text, .menu_mobile .copyright_style_menu .copyright_text, .menu_mobile .copyright_wrap .sc_socials, .menu_mobile .menu_footer_nav {
     float: none;
     text-align: center;
