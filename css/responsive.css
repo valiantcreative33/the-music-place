@@ -3317,4 +3317,10 @@
         height: 100%;
         vertical-align: middle;
     }
+    .contact_header_h1 {
+        font-size: 36px;
+        color: white!important;
+        text-align: center;
+        padding-top: 20px;
+    }
 }
