@@ -3693,7 +3693,8 @@ body:not(.top_panel_fixed) .top_panel_style_5 .top_panel_middle .menu_main_wrap 
 
 .post_featured img {
     width: 100%;
-    height: auto;
+    height: 25em;
+    object-fit: cover;
 }
 
 .post_featured_right>.post_featured {
