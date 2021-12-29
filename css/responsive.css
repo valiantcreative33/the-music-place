@@ -3262,6 +3262,29 @@
     .popup_wrap.popup_registration .form_right {
         margin-top: 0;
     }
+    body .price-list-container {
+        width: 100%;
+        max-width: auto!important;
+        position: inherit;
+        height: 100%;
+        padding-bottom: 5em;
+        transform: translateY(5%);
+        margin: auto;
+        margin-top: -50px;
+    }
+    body .price-list-container .card {
+        margin: 0 0 7em;
+        transform: scale(0);
+        text-align: center;
+        transition: all 0.2s;
+        cursor: pointer;
+        box-shadow: none;
+        height: 470px;
+        border-radius: 14px;
+    }
+    body .price-list-container .card:nth-of-type(2) {
+        top: 0px;
+    }
 }
 
 @media (max-width: 480px) {
