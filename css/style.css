@@ -6214,11 +6214,36 @@ footer.testimonials_wrap .sc_section_overlay, footer.twitter_wrap .sc_section_ov
     text-align: right;
 }
 
-.contact_header_h1 {
+.bg_headers_h1 {
     font-size: 55px;
-    color: white!important;
+    color: #fff568!important;
     text-align: center;
     padding-top: 20px;
+}
+
+.btn-shine {
+  color: #ffffff;
+  background: linear-gradient(to right, white 0, #fff568 10%, white 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+    
+@keyframes shine {
+  0% {
+    background-position: 0
+  }
+  60% {
+    background-position: 280px
+  }
+  100% {
+    background-position: 680px
+  }
 }
 
 .menu_mobile .copyright_style_socials .copyright_text, .menu_mobile .copyright_style_menu .copyright_text, .menu_mobile .copyright_wrap .sc_socials, .menu_mobile .menu_footer_nav {
