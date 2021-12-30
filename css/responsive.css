@@ -3227,6 +3227,9 @@
     .bar.menu_mobile_open {
         height: calc(100% - 46px);
     }
+    .bg_headers_h1 {
+        font-size: 60px;
+    }
 }
 
 @media (max-width: 599px) {
@@ -3238,6 +3241,9 @@
     }
     .admin-bar #debug_log {
         top: 46px;
+    }
+    .bg_headers_h1 {
+        font-size: 52px;
     }
 }
 
@@ -3293,6 +3299,9 @@
     }
     .lessons-copy-left {
         width: 100%; 
+    }
+    .sc_parallax .sc_parallax_content {
+        background-position:60% 20%;
     }
 }
 
@@ -3354,5 +3363,11 @@
         color: white!important;
         text-align: center;
         padding-top: 20px;
+    }
+    .bg_headers_h1 {
+        font-size: 30px;
+    }
+    .sc_parallax .sc_parallax_content {
+        background-position:50% 20%;
     }
 }

@@ -2887,6 +2887,7 @@ ul.sc_list_style_iconed {
     right: 0;
     bottom: 0;
     background-repeat: no-repeat;
+    background-position:70% 10%;
 }
 
 .sc_parallax .sc_parallax_overlay {
