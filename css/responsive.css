@@ -3372,8 +3372,20 @@
     }
 }
 
+@media (max-width: 415px) {
+    .bg_headers_h1 {
+        font-size: 33px;
+    }
+}
+
 @media (max-width: 375px) {
     .bg_headers_h1 {
         font-size: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .bg_headers_h1 {
+        font-size: 24px;
     }
 }
