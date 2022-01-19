@@ -15,9 +15,11 @@
 		<link rel='stylesheet' id='melodyschool-responsive-style-css' href='../css/responsive.css' type='text/css' media='all' />
 		<script type='text/javascript' src='../js/custom/google-map.js'></script>
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBH9LUPh5X1fzpbvrij94Y9gImBYJZo5p4&callback=initMap"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/custom/_form_contact.js"></script>
 	</head>
 	<!-- Navbar Section -->
-	<body class="page page-id-228 page-template-default melodyschool_body body_style_wide body_filled article_style_stretch layout_single-standard template_single-standard scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
+	<body class="page page-id-228 page-template-default melodyschool_body body_style_wide body_filled article_style_stretch layout_single-standard template_single-standard scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive" onload="initializeApp()>
 		<a id="toc_home" class="sc_anchor" title="Home" data-description="&lt;i&gt;Return to Home&lt;/i&gt; - &lt;br&gt;navigate to home page of the site" data-icon="icon-home" data-url="http://melody.ancorathemes.com/" data-separator="yes"></a>
 		<a id="toc_top" class="sc_anchor" title="To Top" data-description="&lt;i&gt;Back to top&lt;/i&gt; - &lt;br&gt;scroll to top of the page" data-icon="icon-double-up" data-url="" data-separator="yes"></a>
 		<div class="body_wrap">
@@ -106,47 +108,50 @@
 							</div>
 						</div>
 					</div>
-					<!-- Body Section -->
-					<div class="page_content_wrap page_paddings_no">
-					<div class="c_wrap">
-						<div class="content">
-						<article class="itemscope post_item post_item_single post_featured_default post_format_standard post-147 page type-page hentry">
-							<section class="post_content" itemprop="articleBody">
-								<div class="vc_row wpb_row">
-									<div class="wpb_column vc_column_container vc_col-sm-12">
-										<div class="vc_column-inner ">
-											<div class="wrap">
-												<div class="sc_section aligncenter" style="max-width: 770px;">
-													<div class="sc_section_inner">
-														<div class="sc_section_content_wrap">
-															<div id="sc_form_1974660877_wrap" class="sc_form_wrap">
-																<div id="sc_form_1974660877" class="sc_form sc_form_style_form_1 margin_top_large margin_bottom_huge contact_form_1">
-																	<h1 class="sc_form_title sc_item_title">Send Us a Message!</h1>
-																	<form id="sc_form_1974660877_form" class="contact_1" method="post" action="include/contact-form.php">
-																		<div class="sc_form_info">
-																			<div class="sc_form_item sc_form_field label_over"><label class="required" for="contact_form_username">Name</label><input id="contact_form_username" type="text" name="name" placeholder="Name *"></div>
-																			<div class="sc_form_item sc_form_field label_over"><label class="required" for="contact_form_subj">Subject</label><input id="contact_form_subj" type="text" name="subject" placeholder="Subject"></div>
-																		</div>
-																		<div class="sc_form_item sc_form_field label_over"><label class="required" for="contact_form_email">E-mail</label><input id="contact_form_email" type="text" name="email" placeholder="E-mail *"></div>
-																		<div class="sc_form_item sc_form_message label_over"><label class="required" for="contact_form_message">Message</label><textarea id="contact_form_message" name="message" placeholder="Message *"></textarea></div>
-																		<div class="sc_form_item sc_form_button"><button type="submit" name="contact_submit" class="contact_form_submit">Send Message</button></div>
-																		<div class="result sc_infobox"></div>
-																	</form>
-																</div>
-															</div>
+					<!-- Contact Form Styling Beginning -->
+					<article class="content block_1462865672215">
+						<section class="contact">
+							<div class="vc_col-sm-12">
+								<div class="vc_column-inner ">
+									<div class="wrap">
+										<div class="sc_section aligncenter" style="max-width: 770px;">
+											<div id="sc_form_1974660877" class="sc_form sc_form_style_form_1 margin_top_large contact_form_1">
+												<h1 class="sc_form_title sc_item_title">Send Us a Message!</h1>
+												<!-- Contact Form Beginning -->
+												<form class="contact_1" id="my-form" action="https://formspree.io/f/xrgjekdn" method="post">
+													<div class="sc_form_info">
+														<div class="sc_form_item sc_form_field label_over">
+															<label class="required" for="name">Name</label>
+															<input id="name" type="text" name="name" placeholder="Name *" required>
+														</div>
+														<div class="sc_form_item sc_form_field label_over">
+															<label class="required" for="phone">Subject</label>
+															<input id="phone" type="text" name="phone" placeholder="Phone Number">
 														</div>
 													</div>
-												</div>
+														<div class="sc_form_item sc_form_field label_over">
+															<label class="required" for="email">E-mail</label>
+															<input id="email" type="email" name="email" placeholder="E-mail *" required>
+														</div>
+														<div class="sc_form_item sc_form_message label_over">
+															<label class="required" for="message">Message</label>
+															<textarea id="message" name="message" rows="7" placeholder="Message *" required></textarea>
+														</div>
+														<div class="sc_form_item sc_form_button status">
+															<button type="submit" name="submit" value="Send" class="submit">Send Message</button>
+														</div>
+														<div class="result sc_infobox"></div>
+												</form>
+												<div id="status"></div>
+												<!-- Contact Form Ending -->
 											</div>
 										</div>
 									</div>
 								</div>
-							</section>
-						</article>
-						<section class="related_wrap related_wrap_empty"></section>
-					</div>
-				</div>
-			</div>
+							</div>
+						</section>
+					</article>
+					<!-- Contact Form Styling Ending -->
 			<!-- Footer Section -->
 			<footer class="footer_wrap widget_area scheme_original">
 				<div class="footer_wrap_inner widget_area_inner">

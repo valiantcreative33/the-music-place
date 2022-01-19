@@ -399,7 +399,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 input[type="text"], input[type="tel"], input[type="number"], input[type="email"], input[type="password"], input[type="search"], select, textarea {
-    text-transform: uppercase;
     -webkit-appearance: none;
     -moz-appearance: none;
     outline: none;
@@ -7634,3 +7633,41 @@ body .price-list-container .card_inner__cta button:hover {
     transform: scale(1);
   }
 }
+
+/* Contact Form  */
+
+  #status {
+    width: 75%;
+    max-width: 200px;
+    text-align: center;
+    padding: 1em 4.4em;
+    margin: 2rem auto;
+    border-radius: 2em;
+  }
+  #status.success {
+    background-color: #FFF568;
+    color: #3499CA;
+    font-size: 1.077em;
+    font-weight: 600;
+    text-transform: uppercase;
+    animation: status 5s ease forwards;
+  }
+  #status.error {
+    background-color: rgb(207, 0, 0);
+    color: white;
+    animation: status 4s ease forwards;
+  }
+  @keyframes status {
+    0% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    90% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    100% {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
