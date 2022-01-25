@@ -16,6 +16,8 @@
 	<link rel='stylesheet' id='melodyschool-responsive-style-css' href='../css/responsive.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='melodyschool-swiperslider-style-css' href='../js/vendor/fw/js/swiper/swiper.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='themepunchboxextcss-css' href='../js/vendor/plugins/essential-grid/public/assets/css/lightbox.css' type='text/css' media='all' />
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/custom/_form_bookonline.js"></script>
 </head>
 <!-- Navbar Section -->
 <body class="page page-id-228 page-template-default melodyschool_body body_style_wide body_filled article_style_stretch layout_single-standard template_single-standard scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
@@ -107,18 +109,31 @@
 																<div class="column-1_2 sc_column_item sc_column_item_1 odd first">
 																	<div id="sc_form_1777025688_wrap" class="sc_form_wrap">
 																		<div id="sc_form_1777025688" class="sc_form sc_form_style_form_custom">
-																			<form id="sc_form_1777025688_form" method="post" action="#">
-																				<div class="sc_form_item sc_form_item_text sc_form_field label_over"><input type="text" id="sc_form_1777025688_1" name="fisrtname" placeholder="First name *"></div>
-																				<div class="sc_form_item sc_form_item_text sc_form_field label_over"><input type="text" id="sc_form_1777025688_2" name="lastname" placeholder="Last name *"></div>
-																				<div class="sc_form_item sc_form_item_text sc_form_field label_over"><input type="text" id="sc_form_1777025688_3" name="address" placeholder="State / City / Street address"></div>
-																				<div class="sc_form_item sc_form_item_text sc_form_field label_over"><input type="text" id="sc_form_1777025688_4" name="email" placeholder="Email address *"></div>
-																				<div class="sc_form_item sc_form_item_text sc_form_field label_over"><input type="text" id="sc_form_1777025688_5" name="phone" placeholder="Phone *"></div>
+																			<form id="book_form" method="post" action="https://formspree.io/f/xyyokaja">
+																				<div class="sc_form_item sc_form_item_text sc_form_field label_over">
+																					<input type="text" id="sc_form_1777025688_1" name="First Name" placeholder="First Name *" required></div>
+																				<div class="sc_form_item sc_form_item_text sc_form_field label_over">
+																					<input type="text" id="sc_form_1777025688_2" name="Last Name" placeholder="Last Name"></div>
+																				<div class="sc_form_item sc_form_item_text sc_form_field label_over">
+																					<input type="text" id="sc_form_1777025688_3" name="Address" placeholder="Street Address / City / State"></div>
+																				<div class="sc_form_item sc_form_item_text sc_form_field label_over">
+																					<input type="email" id="sc_form_1777025688_4" name="Email" placeholder="Email Address"></div>
+																				<div class="sc_form_item sc_form_item_text sc_form_field label_over">
+																					<input type="text" id="sc_form_1777025688_5" name="Phone" placeholder="Phone *" required></div>
 																				<div class="sc_form_item sc_form_item_select sc_form_field label_over">
-																					<div class="sc_form_select_container"><select id="sc_form_1777025688_7" name="classes"><option value="select">Music Lessons *</option><option value="big">Piano</option><option value="middle">Guitar</option><option value="small">Voice</option></select></div>
+																					<div class="sc_form_select_container">
+																						<select id="sc_form_1777025688_7" name="classes" required>
+																							<option value="Select *">Music Lessons *</option>
+																							<option value="Piano">Piano</option>
+																							<option value="Guitar">Guitar</option>
+																							<option value="Voice">Voice</option>
+																						</select>
+																					</div>
 																				</div>
-																				<div class="sc_form_item sc_form_item_button sc_form_button label_over"><button id="sc_form_1777025688_8">register</button></div>
+																				<div class="sc_form_item sc_form_item_button sc_form_button label_over"><button type="submit" name="submit" value="Send" class="submit">Register</button></div>
 																				<div class="result sc_infobox"></div>
 																			</form>
+																			<div id="book_status"></div>
 																		</div>
 																	</div>
 																</div><div class="column-1_2 sc_column_item sc_column_item_2 even">

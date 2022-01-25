@@ -7650,12 +7650,12 @@ body .price-list-container .card_inner__cta button:hover {
     font-size: 1.077em;
     font-weight: 600;
     text-transform: uppercase;
-    animation: status 5s ease forwards;
+    animation: status 50s ease forwards;
   }
   #status.error {
     background-color: rgb(207, 0, 0);
     color: white;
-    animation: status 4s ease forwards;
+    animation: status 5s ease forwards;
   }
   @keyframes status {
     0% {
@@ -7670,4 +7670,27 @@ body .price-list-container .card_inner__cta button:hover {
       opacity: 0;
       pointer-events: none;
     }
+  }
+
+  /* Book Online Form  */
+
+  #book_status {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    padding: 0em 5em 0rem 7em;
+    margin: 0rem auto;
+    border-radius: 2em;
+  }
+  #book_status.success {
+    color: #3499CA;
+    font-size: 1.077em;
+    font-weight: 600;
+    padding-top: 22rem;
+    text-transform: uppercase;
+    animation: status 5s ease forwards;
+  }
+  #book_status.error {
+    color: rgb(207, 0, 0);
+    animation: status 5s ease forwards;
   }
