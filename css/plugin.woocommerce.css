@@ -1201,7 +1201,8 @@ body:not(.woocommerce) .widget_area:not(.footer_wrap) .widget_product_categories
 }
 
 .woocommerce-checkout-review-order-table tr td.product-name {
-    text-align: right;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .woocommerce form .form-row {
