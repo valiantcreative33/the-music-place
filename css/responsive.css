@@ -1180,6 +1180,9 @@
     .scroll_to_top.show {
         bottom: 1em;
     }
+    .sc_form_wrap {
+        padding: 3rem 5rem;
+    }
 }
 
 @media (min-width: 640px) and (max-width: 767px) {
@@ -1799,7 +1802,7 @@
         padding-bottom: 20px;
     }
     .row:not(.columns_fluid)>[class*="column-"], .columns_wrap:not(.columns_fluid)>[class*="column-"] {
-        width: 50%;
+        width: 100%;
     }
     .row:not(.columns_fluid)>.column-1_1, .row:not(.columns_fluid)>.column-2_2, .row:not(.columns_fluid)>.column-3_3, .row:not(.columns_fluid)>.column-4_4, .row:not(.columns_fluid)>.column-5_5, .row:not(.columns_fluid)>.column-6_6, .row:not(.columns_fluid)>.column-7_7, .row:not(.columns_fluid)>.column-8_8, .row:not(.columns_fluid)>.column-9_9, .row:not(.columns_fluid)>.column-10_10, .row:not(.columns_fluid)>.column-11_11, .row:not(.columns_fluid)>.column-12_12, .columns_wrap:not(.columns_fluid)>.column-1_1, .columns_wrap:not(.columns_fluid)>.column-2_2, .columns_wrap:not(.columns_fluid)>.column-3_3, .columns_wrap:not(.columns_fluid)>.column-4_4, .columns_wrap:not(.columns_fluid)>.column-5_5, .columns_wrap:not(.columns_fluid)>.column-6_6, .columns_wrap:not(.columns_fluid)>.column-7_7, .columns_wrap:not(.columns_fluid)>.column-8_8, .columns_wrap:not(.columns_fluid)>.column-9_9, .columns_wrap:not(.columns_fluid)>.column-10_10, .columns_wrap:not(.columns_fluid)>.column-11_11, .columns_wrap:not(.columns_fluid)>.column-12_12, .row:not(.columns_fluid)>.column-2_3, .columns_wrap:not(.columns_fluid)>.column-2_3, .row:not(.columns_fluid)>.column-2_4, .columns_wrap:not(.columns_fluid)>.column-3_4, .row:not(.columns_fluid)>.column-2_5, .columns_wrap:not(.columns_fluid)>.column-2_5, .row:not(.columns_fluid)>.column-3_5, .columns_wrap:not(.columns_fluid)>.column-3_5, .row:not(.columns_fluid)>.column-4_5, .columns_wrap:not(.columns_fluid)>.column-4_5, .row:not(.columns_fluid)>.column-2_6, .columns_wrap:not(.columns_fluid)>.column-2_6, .row:not(.columns_fluid)>.column-3_6, .columns_wrap:not(.columns_fluid)>.column-3_6, .row:not(.columns_fluid)>.column-4_6, .columns_wrap:not(.columns_fluid)>.column-4_6, .row:not(.columns_fluid)>.column-5_6, .columns_wrap:not(.columns_fluid)>.column-5_6 {
         width: 100%;
@@ -3245,6 +3248,9 @@
     .bg_headers_h1 {
         font-size: 52px;
     }
+    .sc_form_wrap {
+        padding: 1rem 3rem;
+    }
 }
 
 @media (max-width: 639px) {
@@ -3375,6 +3381,9 @@
 @media (max-width: 415px) {
     .bg_headers_h1 {
         font-size: 33px;
+    }
+    .sc_form_wrap {
+        padding: 0rem 2rem;
     }
 }
 
