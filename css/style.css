@@ -7363,15 +7363,14 @@ body .price-list-container {
     max-width: auto!important;
     position: relative;
     height: 550px;
-    left: 45px;
-    right: 0;
+    display: flex;
+    flex-direction: row;
     transform: translateY(5%);
     margin: auto;
   }
 body .price-list-container .card {
   margin: 0 auto;
   display: inline-block;
-  margin-right: 30px;
   transform: scale(0);
   width: 280px;
   text-align: center;
@@ -7395,10 +7394,11 @@ body .price-list-container .card:nth-of-type(3) {
 }
 body .price-list-container .card:nth-of-type(1) {
   background: #3499CA;
+  width: 22rem;
 }
 body .price-list-container .card:nth-of-type(2) {
   background: #3499CA;
-  top: -20px;
+  width: 22rem;
 }
 body .price-list-container .card:nth-of-type(3) {
   background: #3499CA;
