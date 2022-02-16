@@ -650,6 +650,16 @@ label.required:after {
     box-sizing: border-box;
 }
 
+.book-lesson-column-wrap {
+    display: flex;
+    vertical-align: top;
+    position: relative;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .row.column_padding_left, .columns_wrap.column_padding_left {
     margin-left: -30px;
     margin-right: 0;

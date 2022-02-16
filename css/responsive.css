@@ -3315,6 +3315,12 @@
     .sc_parallax .sc_parallax_content {
         background-position:60% 20%;
     }
+    .sc_services_item .sc_services_item_description {
+        margin-bottom: 3rem;
+    }
+    .sc_section_title {
+        margin-top: 8rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -3390,6 +3396,13 @@
     }
     .sc_form_wrap {
         padding: 0rem 2rem;
+    }
+    .book-lesson-column-wrap {
+        display: inline;
+        padding-bottom: 3rem;
+    }
+    .wpb_row {
+        margin-top: 5rem;
     }
 }
 
