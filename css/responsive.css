@@ -1183,6 +1183,9 @@
     .sc_form_wrap {
         padding: 3rem 5rem;
     }
+    .textwidget {
+        display: grid;
+    }
 }
 
 @media (min-width: 640px) and (max-width: 767px) {
@@ -2262,12 +2265,28 @@
     .scroll_to_top.show {
         bottom: 1em;
     }
+    .textwidget {
+        display: grid;
+        padding-left: 1.5rem;
+    }
+    .widget_area ul li:before {
+        position: initial;
+    }
+    .widget_area .widget_facebook ul li {
+        padding-left: 0px;
+    }
+    .widget_area ul li {
+        padding-left: 0px;
+    }
 }
 
 @media (max-width: 479px) {
     .sc_skills_counter .column-1_4 {
         width: 50%!important;
         padding-top: 0!important;
+    }
+    .widget_area ul li:before {
+        position: initial;
     }
     .page-id-494 .sc_call_to_action_accented .sc_item_title {
         font-size: 2.4em;
@@ -2594,6 +2613,12 @@
         padding-left: 5px;
         padding-right: 5px;
         columns: auto;
+    }
+    .widget_area .widget_facebook ul li {
+        padding-left: 0px;
+    }
+    .widget_area ul li {
+        padding-left: 0px;
     }
     .sc_socials.sc_socials_size_tiny a, .sc_socials.sc_socials_size_tiny a .sc_socials_hover {
         width: 1.2em;
@@ -3005,6 +3030,15 @@
         margin-left: 0;
         padding: 0;
         top: 0;
+    }
+    .textwidget {
+        display: grid;
+    }
+    .textwidget-facebook {
+        padding-left: 0px;
+    }
+    .widget_area ul li:before {
+        position: initial;
     }
     .sc_accordion.sc_accordion_style_2 .sc_accordion_item .sc_accordion_title .sc_accordion_icon {
         border-width: 1px;

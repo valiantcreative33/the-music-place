@@ -664,6 +664,10 @@ label.required:after {
     display: flex;
 }
 
+.textwidget-facebook {
+    padding-left: 2rem;
+}
+
 .row.column_padding_left, .columns_wrap.column_padding_left {
     margin-left: -30px;
     margin-right: 0;
@@ -6099,7 +6103,7 @@ blockquote>a, blockquote>p>a, blockquote cite {
 }
 
 .widget_area .widget_facebook ul li {
-    padding-left: 2.85em;
+    padding-left: 2em;
     line-height: 1.7em;
     padding-top: 0.7em;
 }
