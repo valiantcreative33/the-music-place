@@ -660,6 +660,10 @@ label.required:after {
     box-sizing: border-box;
 }
 
+.textwidget {
+    display: flex;
+}
+
 .row.column_padding_left, .columns_wrap.column_padding_left {
     margin-left: -30px;
     margin-right: 0;

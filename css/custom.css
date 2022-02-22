@@ -495,10 +495,10 @@ div.pp_pic_holder {
   float:left;
   margin-top: 0.3em;
   margin-left: 0;
-  margin-right: 1.15em;
+  margin-right: .5em;
   font-size:1.923em;
   line-height: 1em;
-  color:#62ccc3;
+  color:#3499CA;
 }
 .style_quote_image {
   background-image:url('../images/quote.jpg');
