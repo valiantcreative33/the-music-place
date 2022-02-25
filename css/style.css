@@ -2235,10 +2235,10 @@ body:not(.top_panel_fixed) .top_panel_inner_style_5 .menu_main_nav>li.bordered {
     display: inline-block;
 }
 
-.logo img {
+/* .logo img {
     float: left;
     width: auto;
-}
+} */
 
 .logo_text, .logo_slogan {
     float: left;
@@ -2374,6 +2374,7 @@ body:not(.top_panel_fixed) .top_panel_inner_style_5 .menu_main_nav>li.bordered {
 .open_child_menu:before {
     content: '\e828';
     font-family: fontello;
+    font-size: 21px;
 }
 
 li.opened>a>.open_child_menu:before {
@@ -3224,7 +3225,7 @@ body:not(.top_panel_fixed) .top_panel_style_5 .top_panel_middle .menu_main_wrap 
 
 .header_mobile .menu_main_nav>li>ul a {
     font-size: 12px;
-    padding: 12px 35px;
+    padding: 12px 140px;
     padding-right: 54px;
     line-height: 16px;
     display: block;
@@ -7739,3 +7740,18 @@ body .price-list-container .card_inner__buy_now {
     color: rgb(207, 0, 0);
     animation: status 5s ease forwards;
   }
+
+  /* Mobile Navbar */
+
+.show,.icon,input{
+  display: none !important;
+}
+.fa-plus{
+  font-size: 15px;
+  margin-left: 40px;
+}
+@media all and (max-width: 968px) {
+    [id^=btn]:checked + ul {
+        display: contents;
+    }
+}

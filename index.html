@@ -53,23 +53,28 @@
 		<div class="page_wrap">
 			<div class="top_panel_fixed_wrap"></div>
 			<!-- Navbar Section -->
-			<header class="top_panel_wrap top_panel_style_6 scheme_original">
+			<header class="top_panel_wrap top_panel_style_6 scheme_original menu_show">
 				<div class="top_panel_wrap_inner top_panel_inner_style_6 top_panel_position_over">
 					<div class="top_panel_middle">
 						<div class="content_wrap">
-							<div class="contact_logo">
-								<div class="logo">
-									<a href="index.html"><img src="./logos/logo-white-400px.png" class="logo_main" alt="" width="169" height="43"><img src="./logos/logo-white-400px.png" class="logo_fixed" alt="" width="109" height="13"></a>
-								</div>
+							<div class="contact_logo logo">
+								<a href="index.html"><img src="./logos/logo-white-400px.png" class="logo_main" alt="" width="169"
+										height="43"></a>
 							</div>
+							<label for="btn" class="icon">
+								<span class="fa fa-bars"></span>
+							</label>
+							<input type="checkbox" id="btn">
 							<div class="menu_main_wrap">
 								<nav class="menu_main_nav_area">
 									<ul id="menu_main" class="menu_main_nav">
-										<li class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children"><a href="#">Home</a>
-										</li>
-										<li class="menu-item menu-item-has-children"><a href="./html/about.html">About</a>
-										</li>
-										<li class="menu-item menu-item-has-children"><a style="cursor: pointer;">Lessons</a>
+										<li class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children"><a
+												href="#">Home</a></li>
+										<li class="menu-item menu-item-has-children"><a href="./html/about.html">About</a></li>
+										<li class="menu-item menu-item-has-children">
+											<label for="btn-2" class="show">Lessons</label>
+											<a href="./html/lessons.html">Lessons</a>
+											<input type="checkbox" id="btn-2">
 											<ul class="sub-menu">
 												<li class="menu-item"><a href="./html/piano-lessons.html">Piano Lessons</a></li>
 												<li class="menu-item"><a href="./html/guitar-lessons.html">Guitar Lessons</a></li>
@@ -79,30 +84,29 @@
 										<li class="menu-item"><a href="./html/contact.html">Contact</a></li>
 										<li class="bordered menu-item"><a href="./html/bookonline.html">Book Free Lesson</a></li>
 									</ul>
-								</nav>
 							</div>
 						</div>
 					</div>
 				</div>
 			</header>
-			<!-- Mobile Navbar Section -->
+			<!-- Mobile Navbar -->
 			<div class="header_mobile">
 				<div class="wrap">
 					<div class="menu_button icon-menu"></div>
 					<div class="logo">
 						<a href="index.html"><img src="./logos/logo-white-400px.png" class="logo_main" alt="" width="169" height="43"></a>
 					</div>
-				</div>
-				<div class="side_wrap">
-					<div class="close">Close</div>
-					<div class="panel_top">
+					<div class="side_wrap">
 						<nav class="menu_main_nav_area">
 							<ul id="menu_mobile" class="menu_main_nav">
 								<li class="menu-item current-menu-ancestor current-menu-parent"><a href="index.html">Home</a>
 								</li>
 								<li class="menu-item"><a href="./html/about.html">About</a>
 								</li>
-								<li class="menu-item"><a style="cursor: pointer;">Lessons</a>
+								<li class="menu-item menu-item-has-children">
+									<label for="btn-2" class="show">Lessons</label>
+									<a href="./html/lessons.html">Lessons</a>
+									<input type="checkbox" id="btn-2">
 									<ul class="sub-menu">
 										<li class="menu-item"><a href="./html/piano-lessons.html">Piano Lessons</a></li>
 										<li class="menu-item"><a href="./html/guitar-lessons.html">Guitar Lessons</a></li>
@@ -113,8 +117,6 @@
 								<li class="bordered menu-item"><a href="./html/bookonline.html">Book Free Lesson</a></li>
 							</ul>
 						</nav>
-					</div>
-					<div class="panel_bottom">
 					</div>
 				</div>
 				<div class="mask"></div>
