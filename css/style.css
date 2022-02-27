@@ -6801,7 +6801,6 @@ iframe[name="google_conversion_frame"] {
 .sc_form_wrap {
     padding: 5rem 15rem;
     margin-top: 2rem;
-    border: 1px solid #3399ca;
 }
 
 .checkout-billing-fields {
@@ -7739,13 +7738,10 @@ body .price-list-container .card_inner__buy_now {
   #book_status.error {
     color: rgb(207, 0, 0);
     animation: status 5s ease forwards;
-  }
+  } 
 
   /* Mobile Navbar */
 
-.show,.icon,input{
-  display: none !important;
-}
 .fa-plus{
   font-size: 15px;
   margin-left: 40px;
