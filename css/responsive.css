@@ -3438,6 +3438,9 @@
     .wpb_row {
         margin-top: 5rem;
     }
+    body .price-list-container .card_inner__content .price {
+        font-size: 34px;
+      }
 }
 
 @media (max-width: 375px) {
