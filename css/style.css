@@ -6291,12 +6291,13 @@ footer.testimonials_wrap .sc_section_overlay, footer.twitter_wrap .sc_section_ov
 }
 
 #toc {
+    display: none;
     position: fixed;
     z-index: 999;
     top: 0;
     bottom: 0;
     right: 0;
-    width: 60px;
+    width: 0px;
 }
 
 #toc a {
