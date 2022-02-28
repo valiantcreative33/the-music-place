@@ -3225,7 +3225,7 @@ body:not(.top_panel_fixed) .top_panel_style_5 .top_panel_middle .menu_main_wrap 
 
 .header_mobile .menu_main_nav>li>ul a {
     font-size: 12px;
-    padding: 12px 140px;
+    padding: 12px 35px;
     padding-right: 54px;
     line-height: 16px;
     display: block;
@@ -3279,7 +3279,7 @@ body:not(.top_panel_fixed) .top_panel_style_5 .top_panel_middle .menu_main_wrap 
 .header_mobile .menu_main_nav>li ul>* {
     z-index: 1;
     position: relative;
-    text-align: left;
+    text-align: center;
 }
 
 .header_mobile .menu_main_nav>li ul>li:last-child {
